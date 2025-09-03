@@ -108,5 +108,3 @@ This will open the app automatically in your browser.
 * Trunk is used for serving the Leptos frontend
 
 ---
-
-Wil je dat ik ook een **voorbeeld `.env` bestand** toevoeg in de README (met bv. `DATABASE_URL`, `PORT`, enz.), zodat developers direct kunnen starten?
