@@ -1,2 +1,2 @@
 # LeptoSign
-A full-stack newsletter subscription app built with Rust. Frontend uses Leptos, backend uses Axum + SQLx, and data is stored in PostgreSQL. Includes CORS support for frontend-backend communication.
+A full-stack newsletter subscription app built in Rust using Leptos for the frontend, Axum + SQLx for the backend, PostgreSQL for storage, and CORS for frontend-backend communication.
