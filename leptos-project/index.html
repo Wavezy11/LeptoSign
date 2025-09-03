@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leptos App</title>
+    <style>
+        /* Algemene body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fdf6f0; /* licht beige */
+            color: #3e2c22; /* donkerbruin tekst */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff8f0; /* lichtbruin/creme */
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #5c4033; /* medium bruin */
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+        }
+
+        /* Form inputs */
+        input {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #d4bfa3; /* zachte bruine rand */
+            background-color: #fff8f0;
+            font-size: 16px;
+            color: #3e2c22;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #a67c52; /* iets donkerder bij focus */
+            box-shadow: 0 0 5px rgba(166,124,82,0.5);
+        }
+
+        /* Button styling */
+        button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            background-color: #a67c52; /* medium bruin */
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #8c6239; /* donkerder bruin bij hover */
+        }
+
+        button:active {
+            background-color: #7a4f2c;
+        }
+
+        /* Status message */
+        .status {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #d4bfa3;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2e4d1; /* lichte bruine achtergrond voor header */
+            color: #5c4033;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff3e6; /* licht gestreept effect */
+        }
+
+        tr:hover {
+            background-color: #ffe8cc; /* hover effect voor rijen */
+        }
+        @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.animate-fade-in {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+ 
+</body>
+</html>

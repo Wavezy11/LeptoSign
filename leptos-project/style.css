@@ -1,0 +1,64 @@
+/* style.css - lichte bruine huisstijl */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f0; /* licht beige */
+    color: #3e2c22; /* donkerbruin tekst */
+    margin: 0;
+    padding: 0;
+}
+
+div.p-4 {
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff8f0; /* lichtbruin/creme */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #5c4033; /* medium bruin */
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d4bfa3; /* zachte bruine rand */
+    background-color: #fff8f0;
+    font-size: 16px;
+    color: #3e2c22;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a67c52; /* iets donkerder bij focus */
+    box-shadow: 0 0 5px rgba(166,124,82,0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #a67c52; /* medium bruin */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #8c6239; /* donkerder bruin bij hover */
+}
+
+button:active {
+    background-color: #7a4f2c;
+}
+
